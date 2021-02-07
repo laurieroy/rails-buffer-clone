@@ -31,3 +31,6 @@
 
 en:
   hello: "Hello world"
+
+en.password_mailer.reset.subject:
+  subject: "Password reset request"
