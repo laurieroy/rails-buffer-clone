@@ -4,7 +4,7 @@ class OmniauthCallbacksController < ApplicationController
 				.first_or_initialize
 		twitter_account.update(
 			name: auth.info.name,
-			username: auth.info.nickname,
+			# username: auth.info.nickname,
 			image: auth.info.image,
 			token: auth.credentials.token,
 			secret: auth.credentials.secret,
