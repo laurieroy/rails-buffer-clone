@@ -1,24 +1,9 @@
-# README
+# Scheduled Tweets 
+## A buffer clone - Go Rails [tutorial](https://gorails.com/episodes/rails-for-beginners-part-1-installing-ruby-on-rails)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+New Stuff learned: 
+- localization helper: l 
+- print out var in rails logger: Rails.logger.info auth
+- using omniauth credentials
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#- Using Sidekiq for background jobs 
