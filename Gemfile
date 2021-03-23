@@ -33,7 +33,7 @@ group :development, :test do
 end
 
 group :development do
-  # gem "better_errors"
+  gem "better_errors"
   gem "binding_of_caller"
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.1.0'
@@ -61,3 +61,5 @@ gem 'omniauth-twitter', '~> 1.4'
 # Cross-Site Request Forgery on the request phrase when using OmniAuth gem
 gem 'omniauth-rails_csrf_protection', '~> 1.0'
 gem "twitter", "~> 7.0"
+
+gem "sidekiq", "~> 6.2"

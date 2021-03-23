@@ -3,7 +3,7 @@ class TweetJob < ApplicationJob
 
   def perform(tweet)
     return if tweet.published?
-    
+
     # Rescheduled a tweet to the future
     return if tweet.publish_at > Time.current
 
