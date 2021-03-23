@@ -1,5 +1,8 @@
-# Scheduled Tweets 
+# [Scheduled Tweets](https://laurie-scheduled-tweets.herokuapp.com)
 ## A buffer clone - Go Rails [tutorial](https://gorails.com/episodes/rails-for-beginners-part-1-installing-ruby-on-rails)
+
+## Try it out!
+[Demo](https://laurie-scheduled-tweets.herokuapp.com) on Heroku. It might take a few seconds to spin up.
 
 New Stuff learned: 
 - using the Twitter API
